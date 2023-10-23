@@ -1,24 +1,14 @@
 <script>
 export default {
   data() {
-<<<<<<< Updated upstream
-    return { 
+    return {
       titel: "Vue basisfunctionaliteiten",
       intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       baseImage: './src/assets/car.jpg',
-      fullName: "Robin Braibant",
-      age: 39,
+      fullName: "Quentin Bakker",
+      age: 21,
       url: 'https://vuejs.org',
       visibility: 'display: none',
-=======
-    return {
-      naam: 'Quentin Bakker',
-      leeftijd: 21,
-    }
-
-  }
-}
->>>>>>> Stashed changes
 
       //nieuwe variabele
       message: ''
@@ -59,7 +49,6 @@ export default {
 </script>
 
 <template>
-<<<<<<< Updated upstream
   <div class="container">
     <h1>{{ titel }}</h1>
     <p>{{ intro }}</p>
@@ -98,19 +87,6 @@ export default {
       </div>
     </form>
   </div>
-=======
-  <div>
-    <h1>Welkom in de Vue App</h1>
-    <p>{{ naam }}</p>
-<!--    <label v-bind:for="firstNameFormElement">{{ firstNameFormElement }}</label>-->
-<!--    <input type="text" v-bind:name="firstNameFormElement" v-bind:id="firstNameFormElement">-->
-  </div>
-  <form v-on:submit="useForm()">
-    <label for="firstName">voornaam</label>
-    <input type="text" name="firstName" id="firstName">
-    <button>send</button>
-  </form>
->>>>>>> Stashed changes
 </template>
 
 <style>
