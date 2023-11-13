@@ -1,4 +1,5 @@
 <script>
+import jsconfetti from 'js-confetti';
 export default {
   data() {
     return {
@@ -15,6 +16,9 @@ export default {
     }
   },
   methods: {
+    newConfetti() {
+      this.jsconfetti.addConfetti();
+    },
     changeText() {
       let randomNumber = Math.random();
       if (randomNumber < 0.5) {
